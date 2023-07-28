@@ -1,0 +1,27 @@
+.saveIcon{
+    background-color: greenyellow;
+    padding: 5px;
+}
+.deleteIcon{
+    background-color: red;
+    padding: 5px;
+}
+.editIcon{
+    background-color: orchid;
+    padding: 5px;
+}
+.saveIcon,
+.deleteIcon,
+.editIcon {
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  color: #fff;
+}
+.saveIcon:hover,
+.deleteIcon:hover,
+.editIcon:hover {
+  background-color: #555;
+}
